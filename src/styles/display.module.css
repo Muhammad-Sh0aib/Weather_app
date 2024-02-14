@@ -1,5 +1,4 @@
 .main{
-    /* background-color: rgb(192, 139, 139); */
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     max-width: 900px;
@@ -13,9 +12,3 @@
         width: 100%;
     }
 }
-
-/* @media screen and (max-width:420px) {
-    .main{
-        grid-template-columns: 1fr 1fr;
-    }
-} */

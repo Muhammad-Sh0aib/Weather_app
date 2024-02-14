@@ -1,0 +1,42 @@
+.main {
+    /* background-color: aqua; */
+    height: 200px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.main:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main div{
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 10px;
+    align-items: baseline;
+    margin-top: 10px;
+}
+
+.main div h2{
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:420px) {
+    .main{
+        grid-column: 1/3;
+    }
+}
